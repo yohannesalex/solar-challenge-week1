@@ -1,0 +1,24 @@
+{
+  // Python interpreter path for the project virtual environment
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+
+  // Enable formatting on save and set tab size
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+
+  // Exclude auto-generated folders from the file explorer
+  "files.exclude": {
+    "**/__pycache__": true,
+    "data": true
+  },
+
+  // Configure Jupyter notebooks to run from the notebooks folder
+  "jupyter.notebookFileRoot": "${workspaceFolder}/notebooks",
+
+  // Enable pytest for running tests in the tests folder
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": [
+    "tests"
+  ]
+}
