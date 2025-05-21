@@ -36,10 +36,11 @@ solar-challenge-week1/
 ├── README.md                     # Project documentation and instructions
 ├── requirements.txt              # Python dependencies
 ├── .github/workflows/ci.yml      # CI pipeline: installs requirements
-├── notebooks/                    # Jupyter notebooks for each site
+├── notebooks/                    # Jupyter notebooks for site-specific and cross-country analyses
 │   ├── benin_eda.ipynb           # EDA for Benin (Malanville) dataset
 │   ├── togo_eda.ipynb            # EDA for Togo (Dapaong) dataset
-│   └── sierraleone-bumbuna.ipynb # EDA for Sierra Leone (Bumbuna) dataset
+│   ├── sierraleone-bumbuna.ipynb # EDA for Sierra Leone (Bumbuna) dataset
+│   └── compare_countries.ipynb   # Cross-country comparison of Benin, Togo, Sierra Leone
 ├── src/                          # Source data and scripts
 │   ├── data/                     # Raw CSV data files
 │   │   ├── benin-malanville.csv
